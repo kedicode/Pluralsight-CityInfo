@@ -8,15 +8,14 @@ namespace CityInfo.API.Controllers
     [Route("/api/cities")]
     public class CitiesController : Controller
     {
-        [HttpGet]
+        [HttpGet()]
         public JsonResult GetCities()
         {
             var result = CitiesDataStore.Current.Cities;
             return new JsonResult(result);       
         }
 
-        [Route("{id}")]
-        [HttpGet]
+        [HttpGet("{id}")]
         public JsonResult GetCity(int id)
         {
             var result = CitiesDataStore.Current.Cities.Find(c=>c.Id == id);

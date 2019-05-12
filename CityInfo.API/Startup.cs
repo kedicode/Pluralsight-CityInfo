@@ -35,7 +35,7 @@ namespace CityInfo.API
                     ExceptionHandler = async (context) =>
                     {
                         context.Response.StatusCode = 500;
-                        context.Response.WriteAsync("Error Page");
+                        await context.Response.WriteAsync("Error Page");
                     }
                 });
             }

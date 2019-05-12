@@ -24,7 +24,7 @@ namespace CityInfo.API.Controllers
                 },
                 new CityDto
                 {
-                    Id = 1,
+                    Id = 3,
                     Name = "Lapeer",
                     Description = "Danks House"
                 },

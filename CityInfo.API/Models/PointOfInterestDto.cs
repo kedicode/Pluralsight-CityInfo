@@ -2,7 +2,7 @@ using System;
 
 namespace CityInfo.API.Models
 {
-    public class PointsOfInterestDto
+    public class PointOfInterestDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

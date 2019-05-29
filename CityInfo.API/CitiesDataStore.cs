@@ -16,16 +16,16 @@ namespace CityInfo.API
                     Id = 1,
                     Name = "Detroit",
                     Description = "Motor City",
-                    PointsOfInterest = new List<PointsOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 1,
                             Name = "Campus Martius",
                             Description = "City Center Park with cool activities"
                         },
 
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 2,
                             Name = "1001 Woodward",
@@ -39,9 +39,9 @@ namespace CityInfo.API
                     Id = 2,
                     Name = "Flint",
                     Description = "Parents Home",
-                    PointsOfInterest = new List<PointsOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 3,
                             Name = "501 Club",
@@ -54,9 +54,9 @@ namespace CityInfo.API
                     Id = 3,
                     Name = "Lapeer",
                     Description = "Danks House",
-                    PointsOfInterest = new List<PointsOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
-                        new PointsOfInterestDto()
+                        new PointOfInterestDto()
                         {
                             Id = 4,
                             Name = "Dank",
